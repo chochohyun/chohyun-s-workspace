@@ -1,0 +1,7 @@
+git init my-website
+cd my-website
+echo "# My Website" > README.md
+git add .
+git commit -m "Initial commit"
+git remote add origin https://github.com/username/my-website.git
+git push -u origin master
